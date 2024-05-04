@@ -13,8 +13,8 @@ class Bio extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var pageProver = Provider.of<CreateProfileProvider>(context);
-    Fighter fighter = pageProver.fighter;
+    var pageProvider = Provider.of<CreateProfileProvider>(context);
+    Fighter fighter = pageProvider.fighter;
     return Flexible(
       flex: 8,
       child: ClipRRect(

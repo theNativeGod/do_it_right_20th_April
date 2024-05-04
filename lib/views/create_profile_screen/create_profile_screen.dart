@@ -29,7 +29,7 @@ class CreateProfileScreen extends StatelessWidget {
             Positioned(
               left: 0,
               right: 0,
-              top: mediaQuery.padding.top + height * .15 + 16,
+              top: mediaQuery.padding.top + height * .15 + 20,
               child: Container(
                 height: 20,
                 width: width,

@@ -1,5 +1,6 @@
 import 'package:do_it_right/views/create_profile_screen/create_profile_screen.dart';
 import 'package:do_it_right/views/helper.dart';
+import 'package:do_it_right/views/main_screen/main_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'auth_button.dart';
@@ -32,7 +33,9 @@ class Buttons extends StatelessWidget {
             AuthButton(
               heading: 'Login',
               sub: 'Guest',
-              onTap: () {},
+              onTap: () {
+                next(context, MainScreen());
+              },
             ),
             AuthButton(
               heading: 'Create',
